@@ -55,7 +55,7 @@
 }
   
 #roomRange {
-  font-size: 1.3em;
+  font-size: 5em;
 }
   .inline-addon {
     display: grid;
@@ -267,8 +267,12 @@ body {
   #roomRange {
     font-size: 1.5em;
   }
-  .title {
+
+  .radio{
     font-size: 1.5em;
+  }
+  .title {
+    font-size: 1.6em;
   }
   h1 {
     background-color: #D5F5FF;
