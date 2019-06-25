@@ -1,0 +1,482 @@
+@media screen and (min-width: 600px) {
+
+  h1 {
+    font-size: 1.7em;
+  }
+  
+.title {
+  font-size: 1.3em;
+}
+
+  h2 {
+    font-size: 1.3em;
+    padding: 0.3em;
+  }
+  
+  ::placeholder {
+    font-size: 1.3em;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .product {
+    height: 40vw;
+  }
+  
+  .menu-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.1em;
+    padding: 0.2em;
+    text-align: center;
+  }
+  
+  .item-inline {
+    font-size: 1.3em;
+  }
+  
+#btnPrice {
+  font-size: 1.5em;
+}
+#btnStyle {
+  font-size: 1.5em;
+}
+#btnRooms {
+  font-size: 1.5em;
+}
+#btnColour {
+  font-size: 1.5em;
+}
+#btnStock {
+  font-size: 1.5em;
+}
+  
+#roomRange {
+  font-size: 1.3em;
+}
+  .inline-addon {
+    display: grid;
+  }
+  
+  .footer-menu .inline a{
+    font-size: 1.3em;
+  }
+  
+  .social-media-menu {
+    padding: 0.3em;
+  }
+  
+  .footer-menu {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  
+  .footer-menu .inline-addon {
+    display: grid;
+  }
+  
+  .footer-menu .inline-addon a{
+    font-size: 1.3em;
+  }
+  
+  .view-next {
+    height: 2.5em;
+  }
+  
+  .view-next a{
+    font-size: 1.4em;
+  }
+  
+  .expand-icon {
+    height: 0.3em
+  }
+  
+  .product-des {
+    font-size: 2em;
+    color: #725368;
+  }
+  
+  
+  .price {
+    font-size: 1.2em;
+  }
+  
+  /* responsive for the product page */
+  
+  .item {
+    padding:0.2em;
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 1fr, 5em;
+    width: 100%;
+  }
+  
+  .grey-pic .product {
+    height: 70vw;
+    padding: 0.1em 0 0 0;
+  }
+  
+  .colour-box {
+    display: grid;
+    grid-template-columns: 5em 5em 5em 5em;
+    grid-template-rows: none;
+    justify-items: center;
+    }
+  
+  .box-grey {
+    background-color: #AFABB7;
+    height: 8vw;
+    width: 8vw;
+  }
+  
+  .box-voilet {
+    background-color: #6C5B7B;
+    height: 8vw;
+    width: 8vw;
+  }
+  
+  .box-orange {
+    background-color: #FF7F65;
+    height: 8vw;
+    width: 8vw;
+  }
+  
+  .box-yellow {
+    background-color: #EED1AC;
+    height: 8vw;
+    width: 8vw;
+  }
+  
+  
+  h4 {
+    font-size: 1.3em;
+    text-align: left;
+    padding: 0.4em 0 0 0.4em;
+  }
+  
+  .rating {
+    text-align: left;
+    font-size: 1.3em;
+    padding: 0.2em;
+  }
+  
+  
+  .back-buttons a{
+    font-size: 1.4em;
+  }
+  
+  h5 {
+    font-size: 1.3em;
+  }
+  .detail {
+    font-size: 1em;
+    line-height: 1.7;
+  }
+  
+  .join-button {
+    font-size: 0.9em;
+  }
+  
+  .dimentions-desc {
+    font-size: 1em;
+  }
+  }
+  
+  @media screen and (min-width: 1000px) {
+  
+body {
+  justify-content: center;
+  margin: auto;
+}
+
+  .topbar {
+    display: grid;
+    grid-template-columns: auto 4em;
+    padding: 1em 2em 0 2em;
+  }
+  
+  .top-menu {
+    display: none;
+  }
+  
+  .mid-logo {
+    text-align: left;
+  }
+  
+  .logo {
+    width: auto;
+    height: 4em;
+  }
+  
+  .shopping-cart {
+    text-align: right;
+    height: 5em;
+    width: 3em;
+  }
+  
+  .shopping-bag {
+    width: auto;
+    height: 4.1em;
+    padding: none;
+  }
+  
+  .search-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 0;
+    padding: none;
+    background-color: #B2DEFF;
+  }
+  
+  .search-rounded {
+    grid-column: 2/6;
+    justify-content: right;
+    bottom: 3.8em;
+    height: 2.5em;
+    left: 9.3em;
+    width:100%;
+  }
+  
+  .search-button {
+    width: 3em;
+    height: 3em;
+    background-color: none;
+    position: relative;
+    top: -60.3px;
+    right: -109px;
+  }
+
+  #btnPrice {
+    font-size: 2em;
+  }
+  #btnStyle {
+    font-size: 2em;
+  }
+  #btnRooms {
+    font-size: 2em;
+  }
+  #btnColour {
+    font-size: 2em;
+  }
+  #btnStock {
+    font-size: 2em;
+  }
+
+  #roomRange {
+    font-size: 1.5em;
+  }
+  .title {
+    font-size: 1.5em;
+  }
+  h1 {
+    background-color: #D5F5FF;
+    font-size: 2.5em;
+  }
+  
+  .forcolour {
+    background-color: #F5F5F5;;
+  }
+  .product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.1em;
+    padding: none;
+  }
+  
+  .product {
+    height: 27vw;
+    overflow: hidden;
+  }
+  
+  .product-des {
+    font-size: 2em;
+    color: #725368;
+  }
+  
+  .price {
+    font-size: 1.4em;
+  }
+  .expand-icon {
+    display: none;
+  }
+  
+  .item-inline {
+    font-size: 2em;
+  }
+  
+  .menu-main .inline-addon a{
+    font-size: 2em;
+  }
+  
+  .footer-menu {
+      padding: 4em 2em 1em 2em;
+      justify-items: left;
+  }
+  
+  .footer-menu .inline a{
+    font-size: 1.5em;
+  }
+  
+  .footer-menu .inline-addon a{
+    font-size: 1.5em;
+  }
+  
+  .view-next {
+    height: 4em;
+    width: 15em;
+  }
+  
+  .view-next a{
+    font-size: 1.7em;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin:  1em 2em 0 1em;
+  }
+  
+  .club {
+    display: grid;
+    grid-template-columns: auto 30em 1fr;
+    grid-gap: 2em;
+    padding: 1em 2em 0 2em;
+  }
+  
+  .social-media-menu {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-gap: 2em;
+    padding: 1em 2em 0 2em;
+  }
+  
+  .inline a{
+    font-size: 1em;
+  }
+  
+  .email-input {
+    width: 100%;
+    height: 2.5em;
+    margin: auto;
+    position: relative;
+    top: 0.7em;
+  }
+  
+  .join-button {
+    background-color: none;
+    padding: none;
+    position: relative;
+    top:-27px;
+    left: 430px;
+    width: 1em;
+    height: 0.5em;
+    font-size: 1.2em;
+    border-radius: 5em;
+  }
+  
+  .bottom-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: left;
+    padding: 0.5em 2em 0.5em 2em;
+  }
+  
+  .inline-none {
+    display: grid;
+  }
+  
+  .inline-none a{
+    font-size: 1em;
+  }
+  
+  .icon {
+    width: 2.5em;
+    height: 2em;
+  }
+  
+  
+  /* responsive for the product page */
+  
+  
+  .back-buttons {
+    background-color: #6C5B7B;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .back-buttons a{
+    font-size: 2.5em;
+    padding: 1em 1em 0;
+  }
+  
+  .main-item {
+    max-width: 1000px;
+    justify-items: center;
+    margin: auto;
+    padding: 1em 1em 0;
+  }
+  
+  .extra-pic {
+    display: grid;
+    grid-template-columns: 5em 5em 5em;
+    grid-template-rows: none;
+    justify-content: center;
+    grid-gap: 1em;
+    margin: auto;
+  }
+  
+  .small-pic{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .caption {
+    display: grid;
+    grid-template-columns:auto auto auto;
+  }
+  
+  .rating {
+    text-align: left;
+    font-size: 1.3em;
+    padding: 0.2em;
+  }
+  
+  .review {
+    text-transform: none;
+  }
+  
+  h5 {
+    text-transform: none;
+  }
+  
+  .detail {
+    text-transform: none;
+  }
+  
+  .dimentions-desc {
+    text-transform: none;
+  }
+  .more-to-love {
+    text-transform: none;
+    padding: 0.5em 0.7em;
+  }
+  
+  .more-product div{
+    text-transform: none;
+  }
+  
+  .small .price {
+    text-transform: none;
+    font-size: 1.3em;
+  }
+  
+  h2 {
+    padding: 1em 0.2em 0;
+  }
+  
+  .social-media-menu {
+    padding: 1em 0.2em 0;
+  }
+  }
+  

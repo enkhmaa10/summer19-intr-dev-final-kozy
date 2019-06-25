@@ -1,0 +1,605 @@
+body {
+  background-color: #F5F5F5;
+}
+
+h1 {
+  background-color: #B1DDFF;
+  color: black;
+  text-align: center;
+  font-family: "Monotype Corsiva", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+}
+
+.title { 
+  background-color: #F5F5F5;
+  color: black;
+  text-align: center;
+  font-family: "Monotype Corsiva", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+}
+
+#roomRange {
+  display: grid;
+  grid-template-columns: 1em 8em 1em 8em 1em 8em 1em 8em 1em 8em;
+  font-family: "Monotype Corsiva", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  margin:1em 3em 0 3em;
+  justify-content: center;
+  visibility: hidden;
+}
+
+h2 {
+  margin: 1em 0 auto 0;
+  padding: 1em 0.2em 0.2em;
+  font-size: 1em;
+}
+
+footer {
+  background-color: #B2DEFF;
+}
+
+section {
+  background-color: #F5F5F5;
+}
+
+h4 {
+  font-family: "mongolian baiti", "Times New Roman", Times, serif;
+  font-size: 1em;
+  text-align: left;
+  color: #725368;
+  padding: 1em 0 0 0.4em;
+}
+
+h5 {
+  font-family: "mongolian baiti", "Times New Roman", Times, serif;
+  font-size: 1em;
+  text-align: left;
+  padding: 1em 0.4em 0 0.4em;
+}
+
+p {
+  font-family: "mongolian baiti", "Times New Roman", Times, serif;
+  font-size: 0.8em;
+  text-align: justify;
+  padding: 0.2em 0.4em 0.5em 0.4em;
+  line-height: 1.5;
+}
+
+h6 {
+  font-family: "mongolian baiti", "Times New Roman", Times, serif;
+  font-size: 1em;
+  padding: 0.2em;
+  display: inline;
+  text-align: left;
+}
+
+.expand-icon {
+  display: none;
+}
+.topbar {
+  background-color: #B2DEFF;
+  display: grid;
+  grid-template-columns: 2em auto 2em;
+  padding: 0.2em;
+}
+
+.top-menu {
+  width: 2em;
+  height: 2em;
+  padding: none;
+}
+
+.hamburger {
+  font-size: 1.5em;
+  width: 1.4em;
+  height: 1em;
+  background-color: inherit;
+  border: none;
+  padding: 0.1em;
+}
+
+.hamburger > div {
+  background-color: black;
+  height: 0.12em;
+  margin: 0.2em 0;
+  border-radius: 1em;
+}
+
+.mid-logo {
+  text-align: center;
+  padding: 0.2em;
+}
+
+.logo {
+  width: auto;
+  height: 2em;
+}
+
+.shopping-cart {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+}
+
+.shopping-bag {
+  height: 2em;
+  width: 1.5em;
+  padding: 0 0.05em 0;
+}
+
+.search-bar {
+  display: grid;
+  grid-template-columns: auto 1.5em;
+  background-color: #D5F5FF;
+  height: 2em;
+  padding: 0.1em;
+}
+
+.search-rounded {
+  width: 100%;
+  height: 1.6em;
+  border-radius: 1em;
+  background-color: #EFD2AD;
+  grid-column: 1/3;
+  border: none;
+  margin: auto;
+  position: relative;
+}
+
+::placeholder {
+  color: #355C7D;
+  font-size: 1em;
+  font-family: "mongolian baiti", "Times New Roman", Times, serif;
+  padding: 0.5em;
+  opacity: 0.4;
+}
+
+.search-button {
+  width: 1.8em;
+  height: 1.9em;
+  border: none;
+  border-radius: 2em;
+  background-color: #355C7D;
+  position: absolute;
+  top: 51.3px;
+  right: 0;
+}
+
+.search-icon {
+  width: 1.7em;
+  height: 1.7em;
+}
+
+.menu-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.1em;
+  padding: 0.2em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.item-inline {
+  font-family: "Mongolian Baiti", "Times New Roman", Times, serif;
+  background-color: #F5F5F5;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+button.item-inline{ 
+  background-color: none;
+  border: none;
+  font-family: "Monotype Corsiva", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+
+
+}
+
+.inline-addon {
+  display: none;
+}
+
+.inline-addon a{
+  color: black;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-family: "mongolian baiti","Times New Roman", Times, serif;
+}
+
+.menu-main .item-inline a {
+  color: black;
+  text-decoration: none;
+}
+
+.ad-pic {
+  width: 100%;
+ }
+
+
+ .not-available {
+  color: red; 
+  text-decoration: #EB5771 underline; 
+}
+
+.no-price {
+  text-decoration: line-through;
+  font-family: "crimson text", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  text-align: center;
+  color: #725368;
+}
+
+.product-pic {
+    background-color: #F5F5F5;
+    padding: 1em;
+}
+
+.product-des a{
+  padding-top: 0.5em;
+  display: block;
+  font-family: "Monotype Corsiva", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  text-decoration: none;
+  text-align: center;
+  color:#725368;
+
+}
+.product {
+  height: 70vw;
+  overflow: hidden;
+  margin: auto;
+  padding: 0.2em;
+  object-fit: fill;
+}
+
+.product-list {
+    padding: 0 1em;
+    display: grid;
+    grid-gap: 1em;
+}
+
+.product-pic {
+    background-color: #F5F5F5;
+    padding: 1em;
+}
+
+
+.price {
+  font-family: "crimson text", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  text-align: center;
+  color: #725368;
+}
+
+.load-more {
+  margin: 1em auto;
+  padding: 0.2em;
+  width: 100%;
+  text-align: center;
+}
+
+.view-next {
+  height: 1.8em;
+  background-color: #EED1AC;
+  border: none;
+  border-radius: 0.5em;
+}
+
+.view-next a{
+  font-family: "crimson text", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+}
+
+.loadBnt {
+  visibility: hidden;
+}
+
+.email {
+  display: grid;
+  grid-template-columns: auto 1.5em;
+}
+
+.email-input {
+  width: 100%;
+  height: 1.6em;
+  border-radius: 1em;
+  background-color: #EFD2AD;
+  grid-column: 1/3;
+  border: none;
+  margin: auto;
+  position: relative;
+}
+
+.join-button {
+  border: none;
+  background-color: #EFD2AD;;
+  color:  #355C7D;
+  padding: 0.3em;
+  position: absolute;
+  right: 0;
+  border-radius: 1em;
+  font-size: 0.8;
+}
+
+.club {
+  background: #B2DEFF;
+}
+
+.social-media-menu {
+  padding: 0.4em 0.2em;
+}
+
+.inline {
+  display: inline-block;
+  text-align: left;
+}
+
+.footer-menu .inline-addon {
+    display: none;
+    text-align: left;
+}
+
+.icon {
+  width: 1.1em;
+  height: 1.2em;
+}
+
+.inline-none {
+  display: none;
+}
+
+.inline-none a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-family: "mongolian baiti","Times New Roman", Times, serif;
+}
+
+.bottom-bar .inline a {
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "mongolian baiti","Times New Roman", Times, serif;
+}
+
+.footer-menu .inline a {
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "mongolian baiti","Times New Roman", Times, serif;
+}
+
+.footer-menu {
+  padding: 3em 0.2em 0.2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  grid-gap: 0.1em;
+}
+
+.footer-menu .inline-addon a{
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+
+.bottom-bar {
+  padding: 0.2em;
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+  background-color: #88959D;
+  justify-items: center;
+}
+
+.bottom-bar a {
+  font-size: 0.8em;
+}
+
+/* main stlying for product page starts here */
+
+.back-buttons {
+  background-color: #B2DEFF;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.2em;
+}
+
+.back-buttons a{
+  color: black;
+  text-decoration: none;
+  font-size: 1em;
+  font-family: "mongolian baiti", "Times New Roman", Times, serif;
+}
+
+.back-left {
+  display:inline-block;
+  text-align: left;
+}
+
+.back-right {
+  display: inline-block;
+  text-align: right;
+  color: black;
+}
+
+.item {
+  padding:0.2em;
+  display: grid;
+  grid-template-columns: 1fr 5em;
+}
+
+.colour-box {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin: 1em auto 0.5em auto;
+}
+
+
+.box-grey {
+  background-color: #AFABB7;
+  height: 10vw;
+  width: 10vw;
+}
+
+.box-voilet {
+  background-color: #6C5B7B;
+  height: 10vw;
+  width: 10vw;
+}
+
+.box-orange {
+  background-color: #FF7F65;
+  height: 10vw;
+  width: 10vw;
+}
+
+.box-yellow {
+  background-color: #EED1AC;
+  height: 10vw;
+  width: 10vw;
+}
+
+.extra-pic {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items:center;
+  width: 100%;
+  padding: 0.2em 0 0.2em 0;
+}
+
+.small-pic{
+  height: 22.5vw;
+  width: 27vw;
+}
+
+
+.rating {
+  text-align: left;
+  padding: 0.2em 0 0 0.4em;
+}
+
+.star-checked {
+  color: red;
+  display: inline;
+}
+
+.review {
+  display:inline;
+}
+
+.quantity {
+  text-align: left;
+  margin: auto;
+  padding: 0.1em 0 0.5em 0.4em;
+}
+
+.quantity-box {
+  border: 0.1em solid #EFD2AD;
+  height: 1.35em;
+  display: block;
+  text-align: left;
+}
+
+.cart-button {
+  text-align: left;
+  margin: auto;
+  padding: 0.5em;
+  display: block;
+  padding: 0.2em 0 0.5em 0.4em;
+}
+
+.add-to-cart {
+  width: 7em;
+  height: 2em;
+  border: 1px  #EB5771;
+  background-color:  #EB5771;
+  text-align: left;
+  color: #355C7D;
+  font-size: 0.8em;
+  padding: 0.2em 0 0 0.4em;
+}
+
+.detail {
+  font-family: "mongolian baiti", "Times New Roman", Times, serif;
+  font-size: 0.8em;
+  padding: 0.2em;
+  text-align: left;
+  padding: 1em 0 0 2em;
+  line-height: 1.5;
+  list-style: circle;
+  margin: auto;
+}
+
+.dimentions {
+  text-align: left;
+  padding: 1em 0.4em 0.5em 0.4em;
+}
+
+.dimentions-desc {
+  font-family: "mongolian baiti", "Times New Roman", Times, serif;
+  font-size: 0.8em;
+  padding: 0.5em;
+}
+
+.dimentions-icon {
+  width: 2em;
+  height: 2em;
+  margin-right: 0.7em;
+}
+
+.more-to-love {
+  background-color: #B2DEFF;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.2em;
+}
+
+.more-product {
+  background: #F5F5F5;
+  padding: 1em 0.2em 0;
+}
+
+.small {
+  font-family: "mongolian baiti", "Times New Roman", Times, serif;
+  font-size: 0.8em;
+  object-position: center;
+  padding: 0.5em;
+}
+
+.back-right a{
+  color: black;
+  text-decoration: none;
+  text-align: right;
+  padding: 1em 0.2em 0;
+}
+
+.more-product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Small-bottom {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.small-first a{
+  font-family: "mongolian baiti", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  top: 1em;
+}
+
+.small-second a{
+  font-family: "mongolian baiti", "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
