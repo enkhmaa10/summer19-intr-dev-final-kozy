@@ -139,8 +139,6 @@ const showMatchingProds = (query) => {
     $bntProducts.style.visibility =  `hidden`;
 
     // document.getElementById(`title`).innerHTML = `<h1 class="title"> We found ${newList.length} results </h1>`;
-
-    
   }
 
     document.getElementById(`search`).addEventListener(`submit`, (event) => {
